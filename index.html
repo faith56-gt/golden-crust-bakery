@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- This makes the page look right on mobile screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Crust Bakery – Home</title>
+
+  <!-- Bootstrap 5 CSS (from CDN – no install needed) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons for nice icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Our custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION BAR ===================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <!-- Logo / Brand name -->
+      <a class="navbar-brand" href="index.html">🍞 Golden Crust</a>
+
+      <!-- This button appears on mobile to show/hide the menu -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <!-- Dark mode toggle button -->
+          <li class="nav-item ms-2">
+            <button id="darkModeToggle">🌙 Dark</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Welcome to Golden Crust Bakery</h1>
+      <p>Freshly baked with love, every single day since 2005.</p>
+      <a href="products.html" class="btn btn-primary btn-lg me-3">View Our Menu</a>
+      <a href="contact.html" class="btn btn-outline-light btn-lg">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES SECTION ===================== -->
+  <section class="section-padding">
+    <div class="container">
+      <h2 class="section-title text-center">Why Choose Us?</h2>
+      <p class="section-subtitle text-center">We believe great bread starts with great ingredients.</p>
+
+      <!-- Bootstrap grid: 3 columns on desktop, 1 on mobile -->
+      <div class="row g-4 mt-2">
+        <div class="col-md-4">
+          <div class="card text-center p-4">
+            <i class="bi bi-shield-check fs-1 text-warning mb-3"></i>
+            <h5>100% Natural</h5>
+            <p>No preservatives or artificial flavours. Everything is made fresh daily using organic flour.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-4">
+            <i class="bi bi-clock fs-1 text-warning mb-3"></i>
+            <h5>Baked Fresh Daily</h5>
+            <p>Our ovens start at 4:00 AM every day so you get the freshest bread possible by 7:00 AM.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-4">
+            <i class="bi bi-truck fs-1 text-warning mb-3"></i>
+            <h5>Free Delivery</h5>
+            <p>We deliver to your doorstep for free on orders above KSh 1,500 within Nairobi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED PRODUCTS SECTION ===================== -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Our Best Sellers</h2>
+      <p class="section-subtitle text-center">Taste what everyone is talking about.</p>
+
+      <div class="row g-4 mt-2">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://placehold.co/400x250?text=Sourdough" class="card-img-top" alt="Sourdough Bread" />
+            <div class="card-body">
+              <h6 class="card-title">Classic Sourdough</h6>
+              <p class="card-text text-muted small">Tangy, chewy, and perfectly crusty.</p>
+              <strong class="text-warning">KSh 450</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://placehold.co/400x250?text=Croissants" class="card-img-top" alt="Croissants" />
+            <div class="card-body">
+              <h6 class="card-title">Butter Croissants</h6>
+              <p class="card-text text-muted small">Flaky layers of buttery goodness.</p>
+              <strong class="text-warning">KSh 120</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://placehold.co/400x250?text=Muffins" class="card-img-top" alt="Muffins" />
+            <div class="card-body">
+              <h6 class="card-title">Blueberry Muffins</h6>
+              <p class="card-text text-muted small">Bursting with fresh blueberries.</p>
+              <strong class="text-warning">KSh 150</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://placehold.co/400x250?text=Cake" class="card-img-top" alt="Celebration Cake" />
+            <div class="card-body">
+              <h6 class="card-title">Celebration Cakes</h6>
+              <p class="card-text text-muted small">Custom cakes for every occasion.</p>
+              <strong class="text-warning">From KSh 2,500</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="products.html" class="btn btn-primary">See Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CALL TO ACTION ===================== -->
+  <section class="section-padding text-center" style="background: linear-gradient(135deg, #c8750a, #2c1a0e); color: white;">
+    <div class="container">
+      <h2>Ready to Order?</h2>
+      <p class="mt-2 mb-4">Visit us at our Westlands branch or call +254 700 000 000</p>
+      <a href="contact.html" class="btn btn-light btn-lg">Contact Us Today</a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5>🍞 Golden Crust Bakery</h5>
+          <p>Serving Nairobi with love and fresh bread since 2005. Family-owned, community-focused.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Quick Links</h5>
+          <a href="about.html">About Us</a>
+          <a href="products.html">Our Products</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Contact Info</h5>
+          <p><i class="bi bi-geo-alt"></i> 123 Westlands Road, Nairobi</p>
+          <p><i class="bi bi-telephone"></i> +254 700 000 000</p>
+          <p><i class="bi bi-envelope"></i> hello@goldencrust.co.ke</p>
+          <p><i class="bi bi-clock"></i> Mon–Sat: 6:00 AM – 8:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Golden Crust Bakery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Go to top">↑</button>
+
+  <!-- Bootstrap 5 JavaScript (must be at the bottom, before </body>) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Our custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
