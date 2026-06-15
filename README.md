@@ -24,4 +24,4 @@ A fully responsive multi-page website for Golden Crust Bakery, built with HTML5,
 - Filterable product gallery
 
 ## Author
-Your Name
+Faith Wanjira Kifue
