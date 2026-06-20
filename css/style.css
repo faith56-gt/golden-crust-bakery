@@ -1,0 +1,82 @@
+/* ===========================
+   GLOBAL STYLES
+   =========================== */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* CSS Variables – change these to change the whole site's colours */
+:root {
+  --primary-color: #c8750a;    /* Orange-brown for bakery theme */
+  --secondary-color: #fff3e0;  /* Cream background */
+  --dark-color: #2c1a0e;       /* Dark brown */
+  --text-color: #333333;
+  --light-gray: #f5f5f5;
+  --white: #ffffff;
+  --footer-bg: #2c1a0e;
+}
+
+/* Dark mode variables */
+body.dark-mode {
+  --secondary-color: #1a1a2e;
+  --text-color: #e0e0e0;
+  --white: #16213e;
+  --light-gray: #0f3460;
+}
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s, color 0.3s; /* Smooth dark mode switch */
+}
+
+/* ===========================
+   NAVIGATION BAR
+   =========================== */
+
+.navbar {
+  background-color: var(--dark-color) !important;
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  font-weight: 500;
+  margin: 0 8px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+/* Dark mode toggle button in navbar */
+#darkModeToggle {
+  background: none;
+  border: 1px solid var(--primary-color);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.3s;
+}
+
+#darkModeToggle:hover {
+  background-color: var(--primary-color);
+}
