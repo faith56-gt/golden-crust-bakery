@@ -29,7 +29,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background-color: var(--secondary-color);
-  transition: background-color 0.3s, color 0.3s; /* Smooth dark mode switch */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 
@@ -56,7 +56,7 @@ body {
   color: var(--primary-color) !important;
 }
 
-/* Dark mode toggle button in navbar */
+
 #darkModeToggle {
   background: none;
   border: 1px solid var(--primary-color);
