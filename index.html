@@ -2,34 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- This makes the page look right on mobile screens -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Golden Crust Bakery – Home</title>
-
-  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Bootstrap Icons for nice icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-
-  <!-- Our custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- ===================== NAVIGATION BAR ===================== -->
+  <!-- NAVIGATION BAR -->
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <!-- Logo / Brand name -->
-      <a class="navbar-brand" href="index.html">Golden Crust</a>
-
-      <!-- This button appears on mobile to show/hide the menu -->
+      <a class="navbar-brand" href="index.html">🍞 Golden Crust</a>
       <button class="navbar-toggler" type="button"
               data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Navigation links -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -40,16 +28,15 @@
           <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="testimonials.html">Reviews</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <!-- Dark mode toggle button -->
           <li class="nav-item ms-2">
-            <button id="darkModeToggle">Dark</button>
+            <button id="darkModeToggle">🌙 Dark</button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- ===================== HERO SECTION ===================== -->
+  <!-- HERO SECTION -->
   <section class="hero-section">
     <div class="container">
       <h1>Welcome to Golden Crust Bakery</h1>
@@ -59,13 +46,11 @@
     </div>
   </section>
 
-  <!-- ===================== FEATURES SECTION ===================== -->
+  <!-- FEATURES SECTION -->
   <section class="section-padding">
     <div class="container">
       <h2 class="section-title text-center">Why Choose Us?</h2>
       <p class="section-subtitle text-center">We believe great bread starts with great ingredients.</p>
-
-      <!-- Bootstrap grid: 3 columns on desktop, 1 on mobile -->
       <div class="row g-4 mt-2">
         <div class="col-md-4">
           <div class="card text-center p-4">
@@ -92,16 +77,18 @@
     </div>
   </section>
 
-  <!-- ===================== FEATURED PRODUCTS SECTION ===================== -->
+  <!-- FEATURED PRODUCTS SECTION -->
   <section class="section-padding bg-light">
     <div class="container">
       <h2 class="section-title text-center">Our Best Sellers</h2>
       <p class="section-subtitle text-center">Taste what everyone is talking about.</p>
 
       <div class="row g-4 mt-2">
+
+        <!-- Sourdough -->
         <div class="col-md-3">
           <div class="card">
-            <img src="https://placehold.co/400x250?text=Sourdough" class="card-img-top" alt="Sourdough Bread" />
+            <img src="images/Sourdough.png" class="card-img-top" alt="Sourdough Bread" />
             <div class="card-body">
               <h6 class="card-title">Classic Sourdough</h6>
               <p class="card-text text-muted small">Tangy, chewy, and perfectly crusty.</p>
@@ -109,9 +96,11 @@
             </div>
           </div>
         </div>
+
+        <!-- Croissants -->
         <div class="col-md-3">
           <div class="card">
-            <img src="https://placehold.co/400x250?text=Croissants" class="card-img-top" alt="Croissants" />
+            <img src="images/Croissants.png" class="card-img-top" alt="Croissants" />
             <div class="card-body">
               <h6 class="card-title">Butter Croissants</h6>
               <p class="card-text text-muted small">Flaky layers of buttery goodness.</p>
@@ -119,9 +108,11 @@
             </div>
           </div>
         </div>
+
+        <!-- Muffins -->
         <div class="col-md-3">
           <div class="card">
-            <img src="https://placehold.co/400x250?text=Muffins" class="card-img-top" alt="Muffins" />
+            <img src="images/Muffins.png" class="card-img-top" alt="Muffins" />
             <div class="card-body">
               <h6 class="card-title">Blueberry Muffins</h6>
               <p class="card-text text-muted small">Bursting with fresh blueberries.</p>
@@ -129,9 +120,11 @@
             </div>
           </div>
         </div>
+
+        <!-- Cake -->
         <div class="col-md-3">
           <div class="card">
-            <img src="https://placehold.co/400x250?text=Cake" class="card-img-top" alt="Celebration Cake" />
+            <img src="images/Cake.png" class="card-img-top" alt="Celebration Cake" />
             <div class="card-body">
               <h6 class="card-title">Celebration Cakes</h6>
               <p class="card-text text-muted small">Custom cakes for every occasion.</p>
@@ -139,6 +132,7 @@
             </div>
           </div>
         </div>
+
       </div>
 
       <div class="text-center mt-4">
@@ -147,7 +141,7 @@
     </div>
   </section>
 
-  <!-- ===================== CALL TO ACTION ===================== -->
+  <!-- CALL TO ACTION -->
   <section class="section-padding text-center" style="background: linear-gradient(135deg, #c8750a, #2c1a0e); color: white;">
     <div class="container">
       <h2>Ready to Order?</h2>
@@ -156,7 +150,7 @@
     </div>
   </section>
 
-  <!-- ===================== FOOTER ===================== -->
+  <!-- FOOTER -->
   <footer>
     <div class="container">
       <div class="row">
@@ -180,17 +174,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&#169 2026 Golden Crust Bakery. All rights reserved.</p>
+        <p>&copy; 2026 Golden Crust Bakery. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Back to Top Button -->
   <button id="backToTop" title="Go to top">↑</button>
 
-  <!-- Bootstrap 5 JavaScript (must be at the bottom, before </body>) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Our custom JavaScript -->
   <script src="js/main.js"></script>
 </body>
 </html>
