@@ -31,3 +31,38 @@ function setActiveNavLink() {
     }
   });
 }
+function setupBackToTop() {
+  const btn = document.getElementById('backToTop');
+  if (!btn) return;
+
+  // Show button when user scrolls more than 300px
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  });
+
+  // When button is clicked, scroll to top smoothly
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+ btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+ if (isValid) {
+      const successAlert = document.getElementById('formSuccess');
+      if (successAlert) {
+        successAlert.style.display = 'block';
+        form.reset(); // Clear all form fields
+
+        // Hide the success message after 4 seconds
+        setTimeout(function () {
+          successAlert.style.display = 'none';
+        }, 4000);
+      }
+    }
+  ;
